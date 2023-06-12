@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container{
+    background-color: rgb(0, 0, 0);
+    gap: 5px;
+    display: grid;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 30px;
+}
+.winnerbox{
+    grid-column: span 2;
+    height: 100px;
+    background-color: rgb(76, 95, 103);
+    color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 3px solid black;
+    border-radius: 5px;
+    border: 2px solid wheat;
+
+}
+
+.image1{
+    background-color: rgb(255, 255, 255);
+    grid-column: auto;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(76, 95, 103);
+    border: 2px solid wheat;
+}
+img{
+    height: 400px;
+}
+.image2{
+    background-color: rgb(241, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(76, 95, 103);
+    border: 2px solid wheat;
+
+}
+.player1{
+    height: 70px;
+    background-color: aqua;
+    background-color: rgb(76, 95, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid wheat;
+}
+
+.player2{
+    height: 70px;
+    background-color: aqua;
+    background-color: rgb(76, 95, 103);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid wheat;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
